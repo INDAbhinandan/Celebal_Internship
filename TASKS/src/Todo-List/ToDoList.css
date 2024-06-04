@@ -1,0 +1,53 @@
+.todo-list {
+  max-width: 500px;
+  margin: auto;
+  text-align: left;
+}
+
+.todo-list input[type="text"] {
+  width: calc(100% - 24px);
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.todo-list button {
+  margin-left: 5px;
+}
+
+.todo-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.todo-list li button {
+  margin-left: 10px;
+}
+h1 {
+  text-align: center;
+  color: rgb(5, 66, 5);
+  font-weight: 700;
+  border: 3px solid black;
+  border-radius: 7px;
+}
+.Delet {
+  background-color: red;
+  border-radius: 10px;
+}
+.Complete {
+  background-color: rgb(83, 226, 83);
+  border-radius: 10px;
+}
+.Add {
+  background-color: rgb(28, 241, 241);
+  border-radius: 10px;
+}
+.Filter {
+  margin-top: 20px;
+}
